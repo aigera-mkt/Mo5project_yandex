@@ -36,14 +36,14 @@ def test_operation2():
     assert nearestPharm.status_code == 200
 
 # Проверяем аптеку по ее uri
-# def test_operation3():
-#     query_params = {'format': 'json',
-#                 'apikey': 'c5af769c-6691-4205-bf76-614c25b96425',
-#                 'uri': 'ymapsbm1://org?oid=1123046306'}
-#     thePharm = requests.get(base_url1, params=query_params)
+def test_operation3():
+    query_params = {'format': 'json',
+                'apikey': 'c5af769c-6691-4205-bf76-614c25b96425',
+                'uri': 'ymapsbm1://org?oid=1123046306'}
+    thePharm = requests.get(base_url1, params=query_params)
 
-#     print(thePharm.text)
-#     print(thePharm.status_code)
-#     pharm_info = thePharm.json()
-#     assert pharm_info['response']['GeoObjectCollection']['featureMember'][0]['GeoObject']['name'] == 'Биосфера'
-#     assert thePharm.status_code == 200
+    print(thePharm.text)
+    print(thePharm.status_code)
+    pharm_info = thePharm.json()
+    assert pharm_info['response']['GeoObjectCollection']['featureMember'][0]['GeoObject']['name'] == 'Биосфера'
+    assert thePharm.status_code == 200
