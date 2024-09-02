@@ -1,17 +1,12 @@
 import pytest
 import requests
-import json
 
 # Определяем геолокацию моего дома
-
 base_url1 = 'https://geocode-maps.yandex.ru/1.x/'
-
-def test_operations():
-
+def test_operations1():
     query_params = {'format': 'json',
                 'apikey': 'c5af769c-6691-4205-bf76-614c25b96425',
                 'geocode': '76.899556, 43.236194'}
-
 
     geolocation = requests.get(base_url1, params=query_params)
 
