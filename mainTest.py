@@ -45,5 +45,5 @@ def test_operation3():
     print(thePharm.text)
     print(thePharm.status_code)
     pharm_info = thePharm.json()
-    assert pharm_info['response']['GeoObjectCollection']['featureMember'][0]['GeoObject']['name'] == 'Биосфера'
+    assert pharm_info['response']['GeoObjectCollection']['featureMember'][0]['GeoObject']['name'] == 'Проверка'
     assert thePharm.status_code == 200
