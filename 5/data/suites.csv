@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Sep 02 09:36:35 GMT 2024","Mon Sep 02 09:36:36 GMT 2024","1013","","mainTest","","","","test_operations1",""
+"passed","Mon Sep 02 09:36:37 GMT 2024","Mon Sep 02 09:36:37 GMT 2024","533","","mainTest","","","","test_operation3",""
+"passed","Mon Sep 02 09:36:36 GMT 2024","Mon Sep 02 09:36:37 GMT 2024","1007","","mainTest","","","","test_operation2",""
